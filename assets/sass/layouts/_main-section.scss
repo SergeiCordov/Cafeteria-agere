@@ -1,0 +1,59 @@
+.blue-block {
+	background-color: $blue-france;
+	
+}
+
+.stats {
+	background-color: $white;
+	position: absolute;
+	top: 390px;
+	left: 400px;
+	
+}
+
+.yellowblock {
+	background-color: $coral;
+	position: relative;
+	top:320px;
+	right: 435px;
+	z-index: 1;
+	height: 120px;
+}
+
+.redblock {
+	background-color: $flame;
+	position: absolute;
+	left: 880px;
+	bottom: 300px;
+	z-index: 2;
+	height: 120px;
+	color: $white;
+	text-align: center;
+	padding-top: 35px;
+}
+
+.map {
+	
+	position: relative;
+	left: 270px;
+	bottom: 170px;
+	z-index: 2;
+	
+}
+
+.coffee-pic {
+
+	width: 20%;
+	z-index: 2;
+}
+
+.coffee-beans {
+	background-image: url('../img/img-3.png');
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width: 150px;
+	  position: relative;
+	left: 240px;
+	bottom: 440px;
+	z-index: 2;
+}
